@@ -43,15 +43,16 @@ public static void main(String[] args) {
 }
 package javaBeginners;
 
-public class PrintSquarePattern {
+public class PrintStarPattern {
 
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
-	System.out.println("* * * * *");
-	System.out.println("*       *");
-	System.out.println("*       *");
-	System.out.println("*       *");
-	System.out.println("* * * * *");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("    *");
+		System.out.println("* *   * *");
+		System.out.println("   * *   ");
+		System.out.println("  *   *  ");
+		System.out.println(" *     *");
 
-}
+	}
+
 }
