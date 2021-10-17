@@ -1,57 +1,54 @@
-package javaBeginners;
+package pattern;
 
-public class PrintCheckerPattern {
+public class PrintPattern {
 
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
-	System.out.println("* * * * *");
-	System.out.println(" * * * * *");
-	System.out.println("* * * * *");
-	System.out.println(" * * * * *");
-	System.out.println("* * * * *");
-	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrintCheckerPattern();
+		PrintSquarePattern();
+		PrintStarPattern();
+		PrintTriangularPattern();
+		
+	}
+		
+		static void PrintCheckerPattern() {
+		
+		System.out.println("* * * * *");
+		System.out.println(" * * * * *");
+		System.out.println("* * * * *");
+		System.out.println(" * * * * *");
+		System.out.println("* * * * *");
+		
+		}
+		
+		static void PrintSquarePattern() {
+		
+		System.out.println("* * * * *");
+		System.out.println("*       *");
+		System.out.println("*       *");
+		System.out.println("*       *");
+		System.out.println("* * * * *");
+		
+		}
+		
+		static void PrintStarPattern() {
+			
+		System.out.println("    *");
+		System.out.println("* *   * *");
+		System.out.println("   * *");
+		System.out.println("  *   *");
+		System.out.println(" *     *");
+		
+		}
+		
+		static void PrintTriangularPattern() {
+		
+		System.out.println("* * * * *");
+		System.out.println(" *     *");
+		System.out.println("  *   *");
+		System.out.println("   * *");
+		System.out.println("    *");
 
-}
-}
-package javaBeginners;
+	}
 
-public class PrintStarPattern {
-
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
-	System.out.println("    *");
-	System.out.println("* *   * *");
-	System.out.println("   * *   ");
-	System.out.println("  *   *  ");
-	System.out.println(" *     *");
-
-}
-}
-package javaBeginners;
-
-public class PrintTriangularPattern {
-
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
-	System.out.println("* * * * *");
-	System.out.println(" *     *");
-	System.out.println("  *   *");
-	System.out.println("   * *");
-	System.out.println("    *");
-
-}
-}
-package javaBeginners;
-
-public class PrintSquarePattern {
-
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
-	System.out.println("* * * * *");
-	System.out.println("*       *");
-	System.out.println("*       *");
-	System.out.println("*       *");
-	System.out.println("* * * * *");
-
-}
 }
